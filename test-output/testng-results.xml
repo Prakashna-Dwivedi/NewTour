@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-11-06T20:36:02 GMT-05:00" name="FlightBooking" finished-at="2022-11-06T20:37:19 GMT-05:00" duration-ms="77083">
+    <groups>
+    </groups>
+    <test started-at="2022-11-06T20:36:02 GMT-05:00" name="NewTour Flight booking" finished-at="2022-11-06T20:37:19 GMT-05:00" duration-ms="77083">
+      <class name="com.newTour.testCases.TC_LoginTest_001">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.newTour.testCases.TC_LoginTest_001@7e6f74c]" started-at="2022-11-06T20:36:03 GMT-05:00" name="setup" finished-at="2022-11-06T20:36:29 GMT-05:00" duration-ms="25679" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="loginTest()[pri:0, instance:com.newTour.testCases.TC_LoginTest_001@7e6f74c]" started-at="2022-11-06T20:36:29 GMT-05:00" name="loginTest" finished-at="2022-11-06T20:36:43 GMT-05:00" duration-ms="14235" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.newTour.testCases.TC_LoginTest_001@7e6f74c]" started-at="2022-11-06T20:36:43 GMT-05:00" name="tearDown" finished-at="2022-11-06T20:36:44 GMT-05:00" duration-ms="516" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.newTour.testCases.TC_LoginTest_001 -->
+      <class name="com.newTour.testCases.TC_FlightFind">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.newTour.testCases.TC_FlightFind@682b2fa]" started-at="2022-11-06T20:36:44 GMT-05:00" name="setup" finished-at="2022-11-06T20:36:45 GMT-05:00" duration-ms="1722" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="addNewCustomer()[pri:0, instance:com.newTour.testCases.TC_FlightFind@682b2fa]" started-at="2022-11-06T20:36:45 GMT-05:00" name="addNewCustomer" finished-at="2022-11-06T20:37:18 GMT-05:00" duration-ms="32512" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addNewCustomer -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.newTour.testCases.TC_FlightFind@682b2fa]" started-at="2022-11-06T20:37:18 GMT-05:00" name="tearDown" finished-at="2022-11-06T20:37:19 GMT-05:00" duration-ms="1330" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.newTour.testCases.TC_FlightFind -->
+    </test> <!-- NewTour Flight booking -->
+  </suite> <!-- FlightBooking -->
+</testng-results>
